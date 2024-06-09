@@ -1,0 +1,16 @@
+#accepta stringuri de forma mere_dulci, caise_moi
+Sigma :
+    _
+    mere
+    pere
+    caise
+    dulci
+    moi
+Variables :
+    <epitet>
+    <substantiv>
+    <adjectiv>
+Rules :
+    <epitet> - <substantiv>_<adjectiv>
+    <substantiv> - mere|pere|caise
+    <adjectiv> - dulci|moi
