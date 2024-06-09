@@ -1,0 +1,19 @@
+#Acesta este un DFA care accepta orice sir care se termina cu 11
+Sigma :
+    0
+    1
+States :
+    q0
+    q1
+    q2
+Start :
+    q0
+Final :
+    q2
+Transitions :
+    q0, 0, q0
+    q0, 1, q1
+    q1, 0, q0
+    q1, 1, q2
+    q2, 0, q0
+    q2, 1, q2

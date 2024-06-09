@@ -1,0 +1,19 @@
+#DFA care accepta orice sir care se termina cu 2 de "alfa"
+Sigma :
+    sigma
+    alfa
+States :
+    q0
+    q1
+    q2
+Start :
+    q0
+Final :
+    q2
+Transitions :
+    q0, sigma, q0
+    q0, alfa, q1
+    q1, sigma, q0
+    q1, alfa, q2
+    q2, sigma, q0
+    q2, alfa, q2
